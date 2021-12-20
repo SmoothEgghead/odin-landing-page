@@ -30,23 +30,30 @@ img {
 .lower-header-left {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    max-width: 300px;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .footer {
     background-color: #1F2937;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .hero-main {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    max-width: 400px;
 }
 
 .hero-second {
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    padding-bottom: 10px;
 }
 
 .header-logo {
@@ -84,8 +91,15 @@ button {
     justify-self: flex-start;
 }
 
+.info-small-text {
+    color: rgb(60, 60, 60);
+}
+
 .quote {
     background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-text {
@@ -95,18 +109,44 @@ button {
     color: #1f2937
 }
 
+.thor {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
 .action {
+    padding: 75px;
+}
+
+.blue-action {
     background-color: #3882f6;
+    padding: 50px 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-text {
+    color: white;
+}
+
+.action-big {
+    font-weight: bold;
+}
+
+.action-small {
+    color: white;
 }
 
 .button-border {
     border-color: white;
     border-style: solid;
-    border-width: 4px;
+    border-width: 3px;
 }
 
 .big-pic {
     max-width: 200px;
+    padding-left: 200px;
 }
 
 .random-info {
